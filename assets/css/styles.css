@@ -96,6 +96,7 @@ nav .search-form button {
 
 .mySlides img {
     width: 100%;
+    padding-top: 3%;
 }
 
 .prev, .next {
@@ -292,9 +293,4 @@ footer {
     color: #fff;
     text-align: center;
     padding: 20px 0;
-}
-
-footer .social-media img {
-    width: 24px;
-    margin: 0 5px;
 }
