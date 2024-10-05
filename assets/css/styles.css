@@ -168,8 +168,8 @@ nav .search-form button {
 }
 
 .feature-item img {
-    width: 100px;
-    height: 100px;
+    width: 50%;
+    height: 50%;
 }
 
 .feature-item h3 {
