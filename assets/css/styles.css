@@ -48,16 +48,65 @@ nav a {
     padding: 8px;
 }
 
+/* Search Form Styles */
 nav .search-form {
     display: flex;
+    align-items: center;
 }
 
 nav .search-form input {
     padding: 5px;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+    border-radius: 3px;
+    width: 150px; /* Adjust width as needed */
 }
 
 nav .search-form button {
     padding: 5px;
+    background-color: #e8491d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+
+nav .search-form button:hover {
+    background-color: #cf3f1a;
+}
+
+/* Search Results Container */
+#search-results {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+    padding: 10px;
+    max-width: 200px;
+    position: absolute;
+    right: 0; /* Aligns the results to the right of the nav */
+    z-index: 1000; /* Ensures the results appear above other elements */
+    border-radius: 3px;
+}
+
+/* Individual Search Result Item */
+#search-results div {
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+}
+
+#search-results div:last-child {
+    border-bottom: none; /* Remove the border on the last item */
+}
+
+#search-results div a {
+    color: #333;
+    text-decoration: none;
+}
+
+#search-results div a:hover {
+    text-decoration: underline;
 }
 
 /* Drop-Down Menu Styles */
